@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuários</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <form id="formcadastro" >
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" required>
+        <br>
+        <label for="des">Descrição: </label>
+        <input type="text" id="des" required>
+        <br>
+        <label for="cat" id="cat">Categoria:</label>
+        <select id="categoria"><option value="despesas">Despesas</option><option value="receitas">Receitas</option></select>
+        <br>
+        <label for="data">Data: </label>
+        <input type="date" id="data" required>
+        <br>
+        <label for="valor">Valor: </label>
+        <input type="number" id="valor" required>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <h2>Lista de Usuários</h2>
+    <ul id="output"></ul>
+
+    <h2>Resumo Financeiro</h2>
+    <ul id="output2"></ul>
+
+    <a href="trab.html">
+        <button id="btnVoltar">Voltar para a Página Inicial</button>
+    </a>
+
+    <script type="text/javascript" src="js/script.js"></script>
+   
+</body>
+</html>

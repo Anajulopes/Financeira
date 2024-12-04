@@ -1,0 +1,47 @@
+
+body
+{
+    background-color: #d7bce8;
+    font-family: Arial, sans-serif;
+}
+
+h1
+{
+    color: black;    
+}
+
+p
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #a719ff;
+}
+
+
+button
+{
+    background-color: #b167df;
+    color: white;
+    border-radius: 5px;;
+}
+
+button 
+{
+    background-color: #c66af0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover 
+{
+    background-color: #ecc2f4;
+}
+
+img{
+max-width: 400px;
+    height: 60;
+    margin-right: 20px;
+}
